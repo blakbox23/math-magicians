@@ -7,6 +7,8 @@
   - Make simple calculations.
   - Read a random math-related quote.
 
+  ![screenshot](./src/assets/Screenshot.png)
+
 
 ## Built With
 
