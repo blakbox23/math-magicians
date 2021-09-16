@@ -44,11 +44,9 @@ body {
   grid-template-columns: 2fr 1fr 1fr;
   height: 2.5rem;
   cursor: pointer;
-
 }
 
 .operators {
   background-color: rgb(255, 199, 95) !important;
   cursor: pointer;
-
 }
