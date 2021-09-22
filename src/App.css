@@ -1,9 +1,25 @@
-body {
-  padding: 5rem;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navBar {
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  padding: 0 5%;
+  align-items: center;
+  height: 50px;
+}
+
+.navBar ul {
+  display: flex;
+  justify-content: space-around;
+  width: 17rem;
+  list-style: none;
 }
 
 .calc {
-  margin-left: auto;
   width: 30rem;
   border: 1px solid grey;
 }
@@ -49,4 +65,34 @@ body {
 .operators {
   background-color: rgb(255, 199, 95) !important;
   cursor: pointer;
+}
+
+/* .homePg, .quotesPg {
+  border: 1px solid black;
+} */
+
+.homePg h1 {
+  font-size: 1.5rem;
+  margin: 3rem 0;
+}
+
+.homePg {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+
+.calcPg {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-top: 3rem;
+  justify-content: space-between;
+}
+
+.quotesPg {
+  width: 80%;
+  margin: auto;
+  margin-top: 15%;
+  font-size: 1.8rem;
 }
