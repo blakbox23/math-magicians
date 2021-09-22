@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -12,7 +12,7 @@
   height: 50px;
 }
 
-.navBar ul{
+.navBar ul {
   display: flex;
   justify-content: space-around;
   width: 17rem;
@@ -72,7 +72,7 @@
 } */
 
 .homePg h1 {
-  font-size: 1.5rem;;
+  font-size: 1.5rem;
   margin: 3rem 0;
 }
 

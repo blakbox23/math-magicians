@@ -22,7 +22,7 @@ function Nav() {
 
   return (
     <div className="navBar">
-      <div>LOGO</div>
+      <div>MATH LOGO</div>
       <ul>
         {links.map((link) => (
           <li key={link.id}>
