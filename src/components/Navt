@@ -1,0 +1,10 @@
+// import '@testing-library/jest-dom';
+// import React from 'react';
+// import { BrowserRouter as Router, NavLink } from 'react-router-dom';
+// import {render, fireEvent, screen} from '@testing-library/react';
+// import Nav from './Nav';
+
+// it('renders quote', () => {
+//     const page = render
+//     expect(tree).toMatchSnapshot();
+//   });
