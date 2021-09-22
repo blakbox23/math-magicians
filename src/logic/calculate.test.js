@@ -25,3 +25,12 @@ test('Equals sign prompts the total', ()=>{
     });
 });
 
+// test('Equals prompts the total', ()=> {
+//  const obj3 = {
+//    total: null,
+//    next: 10,
+//    operation: '-',
+//  }
+//  const ans = 20
+//  expect(calculate(obj3,))
+// })
