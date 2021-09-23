@@ -12,7 +12,7 @@ test('AC button clears everything', () => {
     operation: null,
   });
 });
-test('Equals sign prompts the total', () => {
+test('Plus sign adds up the total', () => {
   const obj2 = {
     total: 0,
     next: 10,
@@ -22,5 +22,41 @@ test('Equals sign prompts the total', () => {
     total: '10',
     next: null,
     operation: '+',
+  });
+});
+test('Minus sign subtructs from the total', () => {
+  const obj = {
+    total: 0,
+    next: 10,
+    operation: '-',
+  };
+  expect(calculate(obj, '-')).toEqual({
+    total: '-10',
+    next: null,
+    operation: '-',
+  });
+});
+test('Multiplication sign multiplies on the total', () => {
+  const obj = {
+    total: 2,
+    next: 10,
+    operation: 'x',
+  };
+  expect(calculate(obj, 'x')).toEqual({
+    total: '20',
+    next: null,
+    operation: 'x',
+  });
+});
+test('Multiplication sign multiplies on the total', () => {
+  const obj = {
+    total: 100,
+    next: 10,
+    operation: '÷',
+  };
+  expect(calculate(obj, '÷')).toEqual({
+    total: '10',
+    next: null,
+    operation: '÷',
   });
 });
