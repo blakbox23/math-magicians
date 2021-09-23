@@ -60,3 +60,28 @@ test('Multiplication sign multiplies on the total', () => {
     operation: '÷',
   });
 });
+test('Modulus sign returns the remainder after division', () => {
+  const obj = {
+    total: 11,
+    next: 2,
+    operation: '%',
+  };
+  expect(calculate(obj, '%')).toEqual({
+    total: '1',
+    next: null,
+    operation: '%',
+  });
+});
+test('should display the given value as next', () => {
+  const obj = {
+    total: null,
+    next: 1,
+    operation: '+',
+  };
+  const obj2 = {
+    total: null,
+    next: '16',
+    operation: '+',
+  };
+  expect(calculate(obj, '6')).toEqual(obj2);
+});
