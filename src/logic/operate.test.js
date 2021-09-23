@@ -15,3 +15,9 @@ test('mutiply 12÷0 to return a 0', () => {
 test('mutplication 12 X 3 to equal 36', () => {
   expect(operate(12, 3, 'x')).toBe('36');
 });
+test('Modulus 11 % 2 to equal 1', () => {
+  expect(operate(11, 2, '%')).toBe('1');
+});
+test('throw an error if passed a wrong operation', () => {
+  expect(() => operate(2, 4, ')')).toThrow();
+});
