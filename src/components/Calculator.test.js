@@ -18,4 +18,3 @@ describe('Check the click event', () => {
     expect(userEvent.click(screen.getByTestId('ac'))).toHaveBeenCalled;
   });
 });
-

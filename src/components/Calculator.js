@@ -39,7 +39,7 @@ const Calculator = () => {
         <div id="row3">
           <div id="c1r3" role="button" tabIndex="0" onKeyDown={handleEvent} onClick={handleEvent}>4</div>
           <div id="c2r3" role="button" tabIndex="0" onKeyDown={handleEvent} onClick={handleEvent}>5</div>
-          <div id="c3r3" role="button" tabIndex="0" onKeyDown={handleEvent} onClick={handleEvent} >6</div>
+          <div id="c3r3" role="button" tabIndex="0" onKeyDown={handleEvent} onClick={handleEvent}>6</div>
           <div id="c4r3" role="button" tabIndex="0" onKeyDown={handleEvent} onClick={handleEvent} className="operators">-</div>
         </div>
         <div id="row4">
