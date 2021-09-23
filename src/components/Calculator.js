@@ -25,7 +25,7 @@ const Calculator = () => {
         </div>
 
         <div id="row1">
-          <div id="c1r1" role="button" tabIndex="0" onKeyDown={handleEvent} onClick={handleEvent}>AC</div>
+          <div id="c1r1" role="button" tabIndex="0" onKeyDown={handleEvent} onClick={handleEvent} data-testid="ac">AC</div>
           <div id="c2r1" role="button" tabIndex="0" onKeyDown={handleEvent} onClick={handleEvent}>+/-</div>
           <div id="c3r1" role="button" tabIndex="0" onKeyDown={handleEvent} onClick={handleEvent}>%</div>
           <div id="c4r1" role="button" tabIndex="0" onKeyDown={handleEvent} onClick={handleEvent} className="operators">÷</div>
