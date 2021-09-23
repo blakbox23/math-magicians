@@ -28,6 +28,9 @@ To get a local copy up and running follow these simple example steps.
 ### Usage
 To run the app in your machine, run `npm start`
 
+### Testing
+To run tests, run `npm run test`
+
 ## Authors
 
 👤 **Peter Mbuthia**
