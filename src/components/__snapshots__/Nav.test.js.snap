@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav snapshot renders correctly 1`] = `
+<div
+  className="navBar"
+>
+  <div>
+    MATH LOGO
+  </div>
+  <ul>
+    <li>
+      <a
+        aria-current="page"
+        className="active-link"
+        data-testid={1}
+        href="/"
+        onClick={[Function]}
+        style={Object {}}
+      >
+        Home
+      </a>
+    </li>
+    <li>
+      <a
+        aria-current={null}
+        data-testid={2}
+        href="/calc"
+        onClick={[Function]}
+      >
+        calculator
+      </a>
+    </li>
+    <li>
+      <a
+        aria-current={null}
+        data-testid={3}
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </li>
+  </ul>
+</div>
+`;

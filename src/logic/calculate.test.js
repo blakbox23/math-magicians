@@ -24,4 +24,3 @@ test('Equals sign prompts the total', () => {
     operation: '+',
   });
 });
-
