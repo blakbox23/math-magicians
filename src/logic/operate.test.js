@@ -14,4 +14,4 @@ test('mutiply 12÷0 to return a 0', () => {
 })
 test('mutplication 12 X 3 to equal 36',() => {
     expect(operate(12,3,'x')).toBe("36")
-}) 
+});

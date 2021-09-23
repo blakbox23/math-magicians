@@ -23,7 +23,7 @@ test('Equals sign prompts the total', ()=>{
       next: null,
       operation: "+",
     });
-}); 
+});
 
 // test('Equals prompts the total', ()=> {
 //  const obj3 = {
