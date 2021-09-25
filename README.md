@@ -8,6 +8,8 @@
   - Read a random math-related quote.
 
   ![screenshot](./src/assets/Screenshot.png)
+  
+  This project has three pages which utilise the react router and implements testing using jest, and the react-testing-library
 
 
 ## Built With
