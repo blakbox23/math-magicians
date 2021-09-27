@@ -16,6 +16,11 @@
 
 - React
 
+## Live links
+
+- [heroku link](https://math-magichero.herokuapp.com/)
+- [Netlify link](https://nostalgic-jang-74a25f.netlify.app/)
+
 
 ## Getting Started
 
